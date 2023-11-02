@@ -41,7 +41,7 @@ type Pagination struct {
 //
 // Deprecated: Response must not be used. Use With instead
 func (p *Pagination) Response(stmt *gorm.DB, req interface{}, res interface{}) Page {
-	fmt.Println("paginate.Response(stmt, req, res) is deprecated! please use paginate.With(stmt).Request(req).Response(res) instead")
+	//fmt.Println("paginate.Response(stmt, req, res) is deprecated! please use paginate.With(stmt).Request(req).Response(res) instead")
 	return p.With(stmt).Request(req).Response(res)
 }
 
@@ -331,7 +331,7 @@ func createCauses(p pageRequest) requestQuery {
 	}
 
 	query.Limit = p.Size
-	query.Offset = p.Page * p.Size
+	query.Offset = (p.Page - 1) * p.Size
 	query.Wheres = wheres
 	query.WhereString = strings.Join(wheres, " ")
 	query.Sorts = sorts
