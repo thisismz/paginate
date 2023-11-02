@@ -1,9 +1,9 @@
 # paginate - Gorm Pagination
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/morkid/paginate.svg)](https://pkg.go.dev/github.com/morkid/paginate)
-[![Github Actions](https://github.com/morkid/paginate/workflows/Go/badge.svg)](https://github.com/morkid/paginate/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/morkid/paginate)](https://goreportcard.com/report/github.com/morkid/paginate)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/morkid/paginate)](https://github.com/morkid/paginate/releases)
+[![Go Reference](https://pkg.go.dev/badge/github.com/thisismz/paginate.svg)](https://pkg.go.dev/github.com/thisismz/paginate)
+[![Github Actions](https://github.com/thisismz/paginate/workflows/Go/badge.svg)](https://github.com/thisismz/paginate/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thisismz/paginate)](https://goreportcard.com/report/github.com/thisismz/paginate)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/morkid/paginate)](https://github.com/thisismz/paginate/releases)
 
 Simple way to paginate [Gorm](https://github.com/go-gorm/gorm) result. **paginate** is compatible with [net/http](https://golang.org/pkg/net/http/) and [fasthttp](https://github.com/valyala/fasthttp). This library also supports many frameworks are based on net/http or fasthttp.
 
@@ -41,7 +41,7 @@ Simple way to paginate [Gorm](https://github.com/go-gorm/gorm) result. **paginat
 ## Installation
 
 ```bash
-go get -u github.com/morkid/paginate
+go get -u github.com/thisismz/paginate
 ```
 
 ## Configuration
@@ -218,7 +218,7 @@ example paging, sorting and filtering:
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -244,7 +244,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -267,7 +267,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -293,7 +293,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -316,7 +316,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -339,7 +339,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -362,7 +362,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -384,7 +384,7 @@ func main() {
 package main
 
 import (
-    "github.com/morkid/paginate"
+    "github.com/thisismz/paginate"
     ...
 )
 
@@ -927,4 +927,4 @@ type User struct {
 
 ## License
 
-Published under the [MIT License](https://github.com/morkid/paginate/blob/master/LICENSE).
+Published under the [MIT License](https://github.com/thisismz/paginate/blob/master/LICENSE).
